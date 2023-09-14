@@ -1,0 +1,42 @@
+.app {
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.68) 0px 8px 24px;
+}
+.income {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 0px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.btnResult {
+  border-radius: 2px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  background-color: rgb(87, 221, 87);
+}
+
+.errorMsg {
+  margin-top: 5px;
+}
