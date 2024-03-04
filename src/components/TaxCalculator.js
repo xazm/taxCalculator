@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TaxRateSelector from "./TaxRateSelector";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function TaxCalculator() {
   // State 1 for income
@@ -46,7 +47,10 @@ function TaxCalculator() {
         </div>
         <TaxRateSelector handleTaxRateChange={setTaxRate} taxRate={taxRate} />
         <div className="btnContainer">
-          <button className="btnResult" onClick={calculateTax}>
+          <button
+            className="btnResult btn btn-success mt-5"
+            onClick={calculateTax}
+          >
             Calculate My Income Tax
           </button>
         </div>
